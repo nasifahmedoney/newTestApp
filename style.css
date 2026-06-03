@@ -116,6 +116,7 @@ ul{
 .newspapers-container{
     margin: auto;
     margin-top: 100px;
+    /* width: 50%; media query*/
 }
 .tv-channels-container{
     margin: auto;
@@ -126,6 +127,7 @@ ul{
 .islamic-websites-container{
     margin: auto;
     margin-top: 100px;
+    /* width: 50%; media query*/
 }
 
 
@@ -150,6 +152,7 @@ ul{
     border-radius: 10px;
     /* box-shadow: -1px 5px lightgrey; */
     border: 1px solid #DFD0B8;
+    /* object-fit: cover;  */
 }
 
 .back-to-main a{
