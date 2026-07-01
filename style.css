@@ -113,22 +113,28 @@ ul{
     padding: 0;
 }
 
+
+
 .newspapers-container{
     margin: auto;
     margin-top: 100px;
-    /* width: 50%; media query*/
+    max-width: 1000px;
+    padding-inline: 50px;
 }
 
 .tv-channels-container{
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
+    max-width: 1000px;
+    padding-inline: 50px;
 }
 
 .islamic-websites-container{
     margin: auto;
     margin-top: 100px;
-    /* width: 50%; media query*/
+    max-width: 1000px;
+    padding-inline: 50px;
 }
 
 
