@@ -137,7 +137,11 @@ ul{
     padding-inline: 50px;
 }
 
-
+@media screen and (max-width: 450px) {
+    .newspapers-container, .tv-channels-container, .islamic-websites-container{
+        padding-inline: 0;
+    }
+}
 .sectionName{
     font-family: "Roboto Mono", monospace;
     color: #DFD0B8;
@@ -170,3 +174,24 @@ ul{
     text-decoration: none;
     color: #DFD0B8;
 }
+
+
+/* Max Width
+
+The max-width feature applies styles when the viewport width is less than or equal to the specified value. For example, the following media query changes the background color of the body to blue when the viewport width is 992px or less:
+
+@media screen and (max-width: 992px) {
+body {
+background-color: blue;
+}
+}
+Copy
+Min Width
+
+The min-width feature applies styles when the viewport width is greater than or equal to the specified value. For example, the following media query changes the font size of a div to 80px when the viewport width is 601px or more:
+
+@media screen and (min-width: 601px) {
+div.example {
+font-size: 80px;
+}
+} */
